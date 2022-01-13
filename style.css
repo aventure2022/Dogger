@@ -1,0 +1,74 @@
+body {
+    font-family: 'Playfair Display' , serif;
+    font-size: 16px;
+    /*margin correspond à la marge extérieur */
+    /* "padding correspond à la marge intérieur */
+    margin: 0; /* Suppression des marges sur le corps du document */
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px dotted black; /*Applique une bordure en pointillé*/
+        padding: 20px;
+    }
+
+    /**
+* Permet de trouver une UL dans une NAV dans un HEADER
+*/
+header nav ul { /* L'espace représente "dans" ou "à l'intérieur" */
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px; /*Séparation entre les éléments */
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    <section>
+
+
+    /**
+    *Titre à gauche, slogan et image du chien à droite 
+    */
+    header{
+        background-color: blanchedalmond;
+    }
+    
+    header section {
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+        margin: auto;
+        align-items: center;
+    }
+/* Largeur de l'image contenue dans le header */
+    .headerDog{
+        width:35%
+    }
+
+    .headerTittle h1{
+        font-size: 4rem;
+        margin: 0; /*Supression des marges auto.sur la balise heading */
+        font-weight: lighter; /*écriture fine */
+    }
+
+    .headerTitle p{
+        font-size: 1.3rem;
+        margin: 0;
+        font-weight: lighter;
+        color: #999999;
+
+    }
